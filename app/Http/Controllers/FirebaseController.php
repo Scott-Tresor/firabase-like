@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Google\Cloud\Firestore\FirestoreClient;
 use Illuminate\Http\Request;
+use Kreait\Firebase\Auth;
 use Kreait\Firebase\Exception\DatabaseException;
+use Kreait\Firebase\Factory;
 
 
 class FirebaseController extends Controller
